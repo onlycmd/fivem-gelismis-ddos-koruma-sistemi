@@ -1,0 +1,41 @@
+# FiveM DDoS Protection - Whitelist
+# Bu dosyada listelenen IP adresleri DDoS korumasından muaf tutulur
+# Her satıra bir IP adresi yazın
+# # ile başlayan satırlar yorum satırıdır
+
+# Yerel ağ IP'leri
+127.0.0.1          # Localhost
+10.0.0.0/8         # Özel IP aralığı A sınıfı
+172.16.0.0/12      # Özel IP aralığı B sınıfı
+192.168.0.0/16     # Özel IP aralığı C sınıfı
+
+# FiveM resmi sunucuları
+185.56.65.0/24     # FiveM CDN
+104.18.0.0/15      # Cloudflare (FiveM kullanıyor)
+
+# Yönetici IP'leri (örnekler - kendi IP'lerinizi ekleyin)
+# 203.0.113.1      # Admin 1
+# 203.0.113.2      # Admin 2
+# 198.51.100.1     # Moderator 1
+
+# İzin verilen botlar ve servisler
+# 66.249.64.0/19   # GoogleBot
+# 157.55.39.0/24   # BingBot
+
+# Güvenilir hosting sağlayıcıları
+# 8.8.8.8          # Google DNS
+# 1.1.1.1          # Cloudflare DNS
+
+# VIP oyuncular (örnek)
+# 203.0.113.10     # VIP Player 1
+# 203.0.113.11     # VIP Player 2
+
+# İş ortakları ve güvenilir sunucular
+# 198.51.100.0/24  # Partner sunucu aralığı
+
+# Monitoring servisleri
+# 104.131.0.0/16   # DigitalOcean (monitoring için)
+# 174.129.0.0/16   # AWS monitoring
+
+# Not: IP adreslerini eklerken dikkatli olun
+# Yanlış IP'ler güvenlik açığı oluşturabilir 

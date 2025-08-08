@@ -1,0 +1,140 @@
+# FiveM DDoS Protection System Requirements
+# Ana paketler
+asyncio
+threading
+sqlite3
+configparser
+logging
+json
+hashlib
+time
+os
+sys
+subprocess
+
+# Network ve güvenlik
+requests>=2.28.0
+ipaddress
+socket
+psutil>=5.9.0
+
+# GeoIP için
+geoip2>=4.6.0
+maxminddb>=2.2.0
+
+# Web arayüzü için
+Flask>=2.2.0
+Jinja2>=3.1.0
+
+# Grafik ve görselleştirme
+plotly>=5.11.0
+numpy>=1.21.0
+pandas>=1.5.0
+
+# E-posta için
+smtplib
+email
+
+# SMS (isteğe bağlı)
+twilio>=7.15.0
+
+# Performans ve optimizasyon
+cachetools>=5.2.0
+python-dateutil>=2.8.0
+
+# Güvenlik ve şifreleme
+cryptography>=38.0.0
+bcrypt>=4.0.0
+
+# Ağ izleme
+scapy>=2.4.5
+netaddr>=0.8.0
+
+# Machine Learning (isteğe bağlı)
+scikit-learn>=1.1.0
+tensorflow>=2.10.0
+
+# Sistem izleme
+py-cpuinfo>=9.0.0
+GPUtil>=1.4.0
+
+# Veritabanı
+sqlalchemy>=1.4.0
+
+# API ve webhook
+urllib3>=1.26.0
+certifi>=2022.9.0
+
+# Windows sistem entegrasyonu
+pywin32>=304;platform_system=="Windows"
+wmi>=1.5.1;platform_system=="Windows"
+
+# Logging ve monitoring
+colorlog>=6.7.0
+rich>=12.6.0
+
+# Configuration
+pyyaml>=6.0
+toml>=0.10.0
+
+# Testing (development)
+pytest>=7.2.0
+pytest-asyncio>=0.20.0
+
+# CLI interface
+click>=8.1.0
+argparse
+
+# File operations
+pathlib
+glob2>=0.7.0
+
+# HTTP client
+httpx>=0.23.0
+
+# Async support
+aiohttp>=3.8.0
+aiofiles>=22.1.0
+
+# Rate limiting
+slowapi>=0.1.8
+limits>=2.7.0
+
+# Background tasks
+celery>=5.2.0
+redis>=4.3.0
+
+# Monitoring extensions
+prometheus-client>=0.15.0
+grafana-api>=1.0.3
+
+# Additional security
+python-nmap>=0.7.1
+shodan>=1.28.0
+
+# IP reputation
+virustotal-api>=1.1.11
+
+# Geolocation
+geocoder>=1.38.1
+
+# System performance
+memory-profiler>=0.60.0
+line-profiler>=4.0.0
+
+# Backup and recovery
+schedule>=1.1.0
+
+# Documentation (optional)
+sphinx>=5.3.0
+sphinx-rtd-theme>=1.1.0
+
+# Development tools (optional)
+black>=22.10.0
+flake8>=5.0.0
+mypy>=0.991
+
+# Deployment
+gunicorn>=20.1.0
+uwsgi>=2.0.21
+nginx-python-module>=1.0.0 

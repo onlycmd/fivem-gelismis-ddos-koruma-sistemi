@@ -1,0 +1,41 @@
+# FiveM DDoS Protection - Blacklist
+# Bu dosyada listelenen IP adresleri otomatik olarak engellenir
+# Her satıra bir IP adresi yazın
+# # ile başlayan satırlar yorum satırıdır
+
+# Bilinen saldırgan IP'ler (örnekler)
+# 185.220.100.240   # Tor exit node - saldırgan
+# 185.220.100.241   # Tor exit node - saldırgan
+# 185.220.100.242   # Tor exit node - saldırgan
+
+# Botnet IP'leri
+# 45.95.168.0/22    # Bilinen botnet aralığı
+# 198.98.50.0/24    # Saldırgan IP aralığı
+
+# Spam/Abuse kaynakları
+# 102.130.115.0/24  # Spam kaynağı
+# 103.224.212.0/24  # Abuse kaynağı
+
+# VPN çıkış noktaları (kötüye kullanım)
+# 5.188.62.0/24     # Şüpheli VPN
+# 31.28.27.0/24     # Kötüye kullanım
+
+# Honeypot'lar tarafından tespit edilen IP'ler
+# 194.147.90.0/24   # Honeypot tespit
+
+# Manuel engellenen IP'ler
+# 203.0.113.100     # Saldırgan kullanıcı
+# 198.51.100.50     # Troll kullanıcı
+
+# Ülke bazlı engelleme (örnek - dikkatli kullanın)
+# 1.2.3.0/24        # Belirli ülke aralığı
+
+# Hosting sağlayıcıları (kötüye kullanım)
+# 5.61.58.0/24      # Şüpheli hosting
+# 185.10.68.0/24    # Abuse kaynaklı hosting
+
+# Proxy sunucuları
+# 103.216.221.0/24  # Açık proxy aralığı
+
+# Bu dosya düzenli olarak güncellenmeli
+# Threat intelligence kaynaklarından beslenebilir 

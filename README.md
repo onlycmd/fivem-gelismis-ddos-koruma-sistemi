@@ -492,6 +492,7 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 2. Feature branch oluşturun
 3. Commit yapın
 4. Pull request gönderin
+5. Starlayın
 
 ## ⚠️ Güvenlik Uyarıları
 
@@ -529,3 +530,4 @@ Bu sistem **mükemmel bir monitoring ve küçük ölçekli koruma aracıdır**, 
 
 
 > Bu sistem FiveM topluluğu için geliştirilmiştir. Güvenli oyun deneyimi için tasarlanmıştır. 
+

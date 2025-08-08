@@ -506,8 +506,7 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 Herhangi bir sorun veya öneriniz için:
 - **GitHub Issues** kullanın
-- **Discord** sunucumuza katılın
-- **E-posta** gönderin
+- **Discord** https://discord.gg/devcode
 
 ---
 
@@ -527,5 +526,6 @@ Herhangi bir sorun veya öneriniz için:
 Bu sistem **mükemmel bir monitoring ve küçük ölçekli koruma aracıdır**, ancak **gerçek DDoS saldırılarına karşı tek başına yetersizdir**. 
 
 **Önerim:** Bu sistemi **monitoring ve alerting aracı** olarak kullanın, gerçek DDoS koruması için **ISP + CDN + Hosting** kombinasyonunu tercih edin.
+
 
 > Bu sistem FiveM topluluğu için geliştirilmiştir. Güvenli oyun deneyimi için tasarlanmıştır. 
